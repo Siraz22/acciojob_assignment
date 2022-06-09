@@ -162,7 +162,7 @@ function App() {
                 id="phoneFrame" 
                 height={530}
                 width={290}
-                src="images/phoneAlpha.png" />
+                src="https://i.imgur.com/VkCAJj2.png" />
               </div>
             
             {/* {srcText} */}
