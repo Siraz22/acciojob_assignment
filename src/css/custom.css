@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+/* .App {
+  font-family: 'Montserrat', sans-serif;
+} */
+
+.sticky{
+    position : sticky;
+    background-color: black;
+    width: 270px;
+    height: 500px;
+    margin: auto;
+    border-radius: 30px;
+
+    /* required for position : sticky */
+    top : 60px; 
+}
+
+.section{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    min-height: 200px;
+    /* background-color: rgb(25, 26, 27); */
+}
+
+.stickyBanner{
+    border-color: black;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    /* border-style: dotted; */
+}
+
+/* Looks */
+
+hr{
+    border : dotted 6px #848484;
+    /* Zero Opacity */
+    background-color: rgba(0,0,0,0); 
+    border-bottom: none;
+    width: 30%;
+    margin: 50px auto;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.phonePreviewParent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+  
+#phoneContent {
+    position: relative;
+    top: 0;
+    left: 0;
+    /* border: 1px red solid; */
+}
+
+#phoneFrame {
+position: absolute;
+top: -10px;
+left: -9px;
+/* border: 1px green solid; */
+}
+
+.fadeOut {
+visibility: hidden;
+opacity: 0;
+transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+.fadeIn {
+visibility: visible;
+opacity: 1;
+transition: visibility 0s linear 0s, opacity 300ms;
+}
